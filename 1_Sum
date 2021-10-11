@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) {
+	int a=0,b=0,sum=0;
+	printf("Input first number a:");
+	scanf("%d",&a);
+	printf("Input second number b:");
+	scanf("%d",&b);
+	
+	sum=a+b;
+	printf("Sum of two numbers=%d",sum);
+	return 0;
