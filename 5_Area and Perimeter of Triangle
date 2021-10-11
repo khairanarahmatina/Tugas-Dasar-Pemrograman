@@ -1,0 +1,16 @@
+int main(int argc, char *argv[]) {
+	int a,b,c,s=0,area,perimeter;
+	printf("Input Side of Triangle a:",a);
+	scanf("%d",&a);
+	printf("Input Side of Triangle b:",b);
+	scanf("%d",&b);
+	printf("Input Side of Triangle c:",c);
+	scanf("%d",&c);
+	
+	s=(a+b+c)/2.;
+	printf("s=%d\n",s);
+	area=(s*(s-a)*(s-b)*(s-c));
+	printf("Area of Triangle=%d\n",area);
+	perimeter=a+b+c;
+	printf("Perimeter of Triangle=%d\n",perimeter);
+	return 0;
