@@ -1,0 +1,10 @@
+int main(int argc, char *argv[]) {
+	float R,area,perimeter;
+	printf("Input Radius of Circle=");
+	scanf("%f",&R);
+	area=22./7.*R*R;
+	printf("Area of Circle=%f\n",area);
+	perimeter=2*22./7.*R;
+	printf("Perimeter of Circle=%f\n",perimeter);
+	
+	return 0;
