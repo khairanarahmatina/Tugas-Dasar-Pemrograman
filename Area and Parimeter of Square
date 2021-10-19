@@ -1,8 +1,0 @@
-	int l=0,area=0,perimeter=0;
-	printf("Input Side Lenght of Square=");
-	scanf("%d",&l);
-	area=l*l;
-	printf("Area of Square=%d\n",area);
-	perimeter=4*l;
-	printf("Perimeter of Square=%d\n",perimeter);
-	return 0;
