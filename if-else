@@ -1,0 +1,28 @@
+#include <stdio.h>
+/* Using the pay schedule shown, write the  code fragment
+that inputs: an employee’s wage and hours and calculates his or her pay */
+
+int main(void)
+{
+  	int hours;
+ 
+  	printf("Input Hours Worked : ");
+  	scanf("%d",&hours);
+  	printf("an employeed wage  :");
+ 
+  	if (hours<=40) {
+    	printf(" Base hourly wage ");
+    }
+  	else if (hours<=60) {
+    	printf(" 1 1/2 times the base wage ");
+    }
+  	else if (hours<=80) {
+    	printf(" 2 times the base wage");
+    }
+  	else {
+		printf(" invalid input data");
+    }
+  
+
+	return 0;
+}
